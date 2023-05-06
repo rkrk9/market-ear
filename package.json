@@ -9,21 +9,36 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.6.1",
     "@emotion/react": "^11.10.8",
     "@emotion/styled": "^11.10.8",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/lab": "^5.0.0-alpha.129",
+    "@mui/material": "^5.12.3",
     "@types/node": "20.0.0",
     "@types/react": "18.2.5",
     "@types/react-dom": "18.2.3",
+    "bootstrap": "^5.2.3",
     "eslint": "8.39.0",
     "eslint-config-next": "13.4.0",
+    "filepond": "^4.30.4",
+    "filepond-plugin-image-exif-orientation": "^1.0.11",
+    "filepond-plugin-image-preview": "^4.6.11",
     "framer-motion": "^10.12.7",
     "next": "13.4.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-toastify": "^9.1.2",
+    "reactstrap": "^9.1.9",
+    "sass": "^1.62.1",
+    "simplebar": "^6.2.5",
+    "simplebar-react": "^3.2.4",
+    "slick-carousel": "^1.8.1",
     "typescript": "5.0.4"
   },
   "devDependencies": {
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-unused-imports": "^2.0.0",
     "prettier": "^2.8.8"
   }
 }
