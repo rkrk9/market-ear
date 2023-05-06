@@ -45,7 +45,7 @@ const Footers = () => (
                                                         </ul>
                                                     </div>
                                                     <Col lg='12'sm='12' className=" mt-3 mt-lg-0 text-center">
-                                                         Copyright © 2022 <Link to="#;" className="text-primary">Dashtic</Link>. Designed with <span className="fa fa-heart text-danger"></span> by <Link to="#;"> Spruko </Link> All rights reserved.
+                                                         Copyright © 2022 <Link href="#;" className="text-primary">Dashtic</Link>. Designed with <span className="fa fa-heart text-danger"></span> by <Link href="#;"> Spruko </Link> All rights reserved.
                                                     </Col>
                                                 </Row>
                                             </div>
@@ -92,7 +92,7 @@ const Footers = () => (
                                                         </div>
                                                      </Col>
                                                     <Col lg='6' sm='12' md='7' className="mt-3 mt-lg-0 text-md-end">
-                                                        Copyright © 2022 <Link to="#">Dashtic</Link>.All rights reserved.
+                                                        Copyright © 2022 <Link href="#">Dashtic</Link>.All rights reserved.
                                                     </Col>
                                                 </Row>
                                             </div>
@@ -140,15 +140,15 @@ const Footers = () => (
                                                             </div>
                                                         </Col>
                                                         <Col lg='6' md='6' className="text-md-end privacy">
-                                                            <Link to="#" className="btn btn-link">Privacy</Link>
-                                                            <Link to="#" className="btn btn-link">Terms</Link>
-                                                            <Link to="#" className="btn btn-link">About Us</Link>
+                                                            <Link href="#" className="btn btn-link">Privacy</Link>
+                                                            <Link href="#" className="btn btn-link">Terms</Link>
+                                                            <Link href="#" className="btn btn-link">About Us</Link>
                                                         </Col>
                                                     </Row>
                                                 </div>
                                                 <div className="align-items-center flex-row-reverse border-top">
                                                     <div className="text-center p-3 bg-light">
-                                                         Copyright © 2022 <Link to="#;" className="text-primary">Dashtic</Link>. Designed with <span className="fa fa-heart text-danger"></span> by <Link to="#;"> Spruko </Link> All rights reserved.
+                                                         Copyright © 2022 <Link href="#;" className="text-primary">Dashtic</Link>. Designed with <span className="fa fa-heart text-danger"></span> by <Link href="#;"> Spruko </Link> All rights reserved.
                                                     </div>
                                                 </div>
                                             </div>
@@ -174,12 +174,12 @@ const Footers = () => (
                                                 <div className="p-4">
                                                     <Row className="align-items-center">
                                                         <Col lg='6' md='6' className="d-md-block ">
-                                                            Copyright © 2022 <Link to="#">Dashtic</Link>.
+                                                            Copyright © 2022 <Link href="#">Dashtic</Link>.
                                                         </Col>
                                                         <Col lg='6' md='6' className="text-md-end privacy">
-                                                            <Link to="#" className="btn btn-link">Privacy</Link>
-                                                            <Link to="#" className="btn btn-link">Terms</Link>
-                                                            <Link to="#" className="btn btn-link">About Us</Link>
+                                                            <Link href="#" className="btn btn-link">Privacy</Link>
+                                                            <Link href="#" className="btn btn-link">Terms</Link>
+                                                            <Link href="#" className="btn btn-link">About Us</Link>
                                                         </Col>
                                                     </Row>
                                                 </div>
@@ -206,7 +206,7 @@ const Footers = () => (
                                             <div className="container">
                                                 <Row className="align-items-center flex-row-reverse">
                                                     <Col lg='12'sm='12' className=" mt-3 mt-lg-0 text-center">
-                                                         Copyright © 2022 <Link to="#;" className="text-primary">Dashtic</Link>. Designed with <span className="fa fa-heart text-danger"></span> by <Link to="#;"> Spruko </Link> All rights reserved.
+                                                         Copyright © 2022 <Link href="#;" className="text-primary">Dashtic</Link>. Designed with <span className="fa fa-heart text-danger"></span> by <Link href="#;"> Spruko </Link> All rights reserved.
                                                     </Col>
                                                 </Row>
                                             </div>

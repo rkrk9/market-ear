@@ -39,10 +39,10 @@ const Header = () => (
                                                     </Link>
                                                     <div className="d-flex order-lg-2 ms-auto">
                                                         <div className="dropdown d-none d-md-flex mt-1">
-                                                            <Link to="#" className="nav-link icon requestfullscreen">
+                                                            <Link href="#" className="nav-link icon requestfullscreen">
                                                                 <i className="fe fe-maximize floating"></i>
                                                             </Link>
-                                                            <Link to="#" className="nav-link icon exitfullscreen" style={{display:"none"}}>
+                                                            <Link href="#" className="nav-link icon exitfullscreen" style={{display:"none"}}>
                                                                 <i className="fe fe-minimize floating"></i>
                                                             </Link>
                                                         </div>
@@ -155,7 +155,7 @@ const Header = () => (
                                                             </DropdownMenu>
                                                         </UncontrolledDropdown>
                                                     </div>
-                                                    <Link to="#" className="header-toggler d-lg-none ms-3 ms-lg-0" data-bs-toggle="collapse" data-bs-target="#headerMenuCollapse1">
+                                                    <Link href="#" className="header-toggler d-lg-none ms-3 ms-lg-0" data-bs-toggle="collapse" data-bs-target="#headerMenuCollapse1">
                                                         <span className="header-toggler-icon"></span>
                                                     </Link>
                                                 </div>
@@ -195,10 +195,10 @@ const Header = () => (
                                                         </div>
                                                         <div className="d-flex order-lg-2 ms-auto">
                                                             <div className="dropdown d-none d-md-flex mt-1">
-                                                                <Link to="#" className="nav-link icon requestfullscreen">
+                                                                <Link href="#" className="nav-link icon requestfullscreen">
                                                                     <i className="fe fe-maximize floating"></i>
                                                                 </Link>
-                                                                <Link to="#" className="nav-link icon exitfullscreen" style={{display:"none"}}>
+                                                                <Link href="#" className="nav-link icon exitfullscreen" style={{display:"none"}}>
                                                                     <i className="fe fe-minimize floating"></i>
                                                                 </Link>
                                                             </div>
@@ -288,7 +288,7 @@ const Header = () => (
                                                                 </DropdownToggle>
                                                                 <DropdownMenu className="dropdown-menu dropdown-menu-start dropdown-menu-arrow">
                                                                     <div className="text-center">
-                                                                        <Link to="#" className="dropdown-item text-center user pb-0">John Thomson</Link>
+                                                                        <Link href="#" className="dropdown-item text-center user pb-0">John Thomson</Link>
                                                                         <span className="text-center user-semi-title text-dark">App Developer</span>
                                                                         <div className="dropdown-divider"></div>
                                                                     </div>
@@ -311,7 +311,7 @@ const Header = () => (
                                                             </UncontrolledDropdown>
                                                         </div>
                                                     </div>
-                                                    <Link to="#" className="header-toggler d-lg-none ms-3 ms-lg-0 text-white" data-bs-toggle="collapse" data-bs-target="#headerMenuCollapse2">
+                                                    <Link href="#" className="header-toggler d-lg-none ms-3 ms-lg-0 text-white" data-bs-toggle="collapse" data-bs-target="#headerMenuCollapse2">
                                                         <span className="header-toggler-icon"></span>
                                                     </Link>
                                                 </div>
@@ -342,7 +342,7 @@ const Header = () => (
                                                         <img src={favicon1} className="header-brand-img darkmobile-logo" alt="Dashtic logo"/>
                                                     </Link>
                                                     <div className="d-flex order-lg-2 ms-auto">
-                                                        <Link to="#" data-bs-toggle="search" className="nav-link nav-link-lg d-md-none navsearch">
+                                                        <Link href="#" data-bs-toggle="search" className="nav-link nav-link-lg d-md-none navsearch">
                                                             <svg className="header-icon search-icon" x="1008" y="1248" viewBox="0 0 24 24" height="100%" width="100%" preserveAspectRatio="xMidYMid meet" focusable="false">
                                                                     <path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
                                                                 </svg>
@@ -361,7 +361,7 @@ const Header = () => (
                                                         </div>
                                                         {/* <!-- SEARCH --> */}
                                                         <div className="dropdown header-fullscreen ps-2 d-none d-lg-flex">
-                                                            <Link to="#" className="nav-link icon full-screen-link p-0" id="fullscreen-button">
+                                                            <Link href="#" className="nav-link icon full-screen-link p-0" id="fullscreen-button">
                                                                 <svg className="header-icon" x="1008" y="1248" viewBox="0 0 24 24" height="100%" width="100%" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M7,14 L5,14 L5,19 L10,19 L10,17 L7,17 L7,14 Z M5,10 L7,10 L7,7 L10,7 L10,5 L5,5 L5,10 Z M17,17 L14,17 L14,19 L19,19 L19,14 L17,14 L17,17 Z M14,5 L14,7 L17,7 L17,10 L19,10 L19,5 L14,5 Z"></path></svg>
                                                             </Link>
                                                         </div>
@@ -479,7 +479,7 @@ const Header = () => (
                                                     </Link>
 
                                                     <div className="d-flex order-lg-2 ms-auto">
-                                                        <Link to="#" data-bs-toggle="search" className="nav-link nav-link-lg d-md-none navsearch">
+                                                        <Link href="#" data-bs-toggle="search" className="nav-link nav-link-lg d-md-none navsearch">
                                                             <svg className="header-icon search-icon" x="1008" y="1248" viewBox="0 0 24 24" height="100%" width="100%" preserveAspectRatio="xMidYMid meet" focusable="false">
                                                                     <path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
                                                                 </svg>
@@ -592,7 +592,7 @@ const Header = () => (
                                                         <img src={favicon1} className="header-brand-img darkmobile-logo" alt="Dashtic logo"/>
                                                     </Link>
                                                     <div className="d-flex order-lg-2 ms-auto">
-                                                        <Link to="#" data-bs-toggle="search" className="nav-link nav-link-lg d-md-none navsearch">
+                                                        <Link href="#" data-bs-toggle="search" className="nav-link nav-link-lg d-md-none navsearch">
                                                             <svg className="header-icon search-icon" x="1008" y="1248" viewBox="0 0 24 24" height="100%" width="100%" preserveAspectRatio="xMidYMid meet" focusable="false">
                                                                     <path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
                                                                 </svg>
@@ -611,7 +611,7 @@ const Header = () => (
                                                         </div>
                                                         {/* <!-- SEARCH --> */}
                                                         <div className="dropdown header-fullscreen ps-2 d-none d-lg-flex">
-                                                            <Link to="#" className="nav-link icon full-screen-link p-0" id="fullscreen-button2">
+                                                            <Link href="#" className="nav-link icon full-screen-link p-0" id="fullscreen-button2">
                                                                 <svg className="header-icon" x="1008" y="1248" viewBox="0 0 24 24" height="100%" width="100%" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M7,14 L5,14 L5,19 L10,19 L10,17 L7,17 L7,14 Z M5,10 L7,10 L7,7 L10,7 L10,5 L5,5 L5,10 Z M17,17 L14,17 L14,19 L19,19 L19,14 L17,14 L17,17 Z M14,5 L14,7 L17,7 L17,10 L19,10 L19,5 L14,5 Z"></path></svg>
                                                             </Link>
                                                         </div>

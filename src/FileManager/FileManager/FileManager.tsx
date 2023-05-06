@@ -1,10 +1,6 @@
 import React from "react";
-import { PageHeaders } from "../../../../Shared/Prism/Prism";
-import file from "../../../../assets/images/files/file.png";
-import folder from "../../../../assets/images/files/folder.png";
-import word from "../../../../assets/images/files/word.png";
-import photo from "../../../../assets/images/photos/1.jpg";
-import { Link } from "react-router-dom";
+import { PageHeaders } from "@/Shared/Prism/Prism";
+import Link from 'next/link';
 import {
   UncontrolledDropdown,
   DropdownToggle,
@@ -259,10 +255,10 @@ const FileManager = () => (
       <Col lg="8"xl="9">
         <Row>
           <Col className="mb-4">
-            <Link to="#" className="btn btn-primary mb-1 me-1">
+            <Link href="#" className="btn btn-primary mb-1 me-1">
               <i className="fe fe-plus"></i> Upload New Files
             </Link>
-            <Link to="#" className="btn btn-light mb-1">
+            <Link href="#" className="btn btn-light mb-1">
               <i className="fe fe-folder"></i> New folder
             </Link>
           </Col>
@@ -322,7 +318,6 @@ const FileManager = () => (
               </div>
               <CardBody className="pt-0 text-center">
                 <div className="file-manger-icon">
-                  <img src={file} alt="img" className="br-7" />
                 </div>
                 <h6 className="mb-1 font-weight-semibold mt-4">document.pdf</h6>
                 <span className="text-muted">23kb</span>
@@ -369,7 +364,6 @@ const FileManager = () => (
               </div>
               <CardBody className="pt-0 text-center">
                 <div className="file-manger-icon">
-                  <img src={folder} alt="img" className="br-7" />
                 </div>
                 <h6 className="mb-1 font-weight-semibold mt-4">Images</h6>
                 <span className="text-muted">1.23gb</span>
@@ -416,7 +410,6 @@ const FileManager = () => (
               </div>
               <CardBody className="pt-0 text-center">
                 <div className="file-manger-icon">
-                  <img src={folder} alt="img" className="br-7" />
                 </div>
                 <h6 className="mb-1 font-weight-semibold mt-4">Music</h6>
                 <span className="text-muted">897mb</span>
@@ -463,7 +456,6 @@ const FileManager = () => (
               </div>
               <CardBody className="pt-0 text-center">
                 <div className="file-manger-icon">
-                  <img src={folder} alt="img" className="br-7" />
                 </div>
                 <h6 className="mb-1 font-weight-semibold mt-4">Downloads</h6>
                 <span className="text-muted">453kb</span>
@@ -510,7 +502,6 @@ const FileManager = () => (
               </div>
               <CardBody className="pt-0 text-center">
                 <div className="file-manger-icon">
-                  <img src={folder} alt="img" className="br-7" />
                 </div>
                 <h6 className="mb-1 font-weight-semibold mt-4">Vidoes</h6>
                 <span className="text-muted">1.5gb</span>
@@ -557,7 +548,6 @@ const FileManager = () => (
               </div>
               <CardBody className="pt-0 text-center">
                 <div className="file-manger-icon">
-                  <img src={folder} alt="img" className="br-7" />
                 </div>
                 <h6 className="mb-1 font-weight-semibold mt-4">Documents</h6>
                 <span className="text-muted">234mb</span>
@@ -653,7 +643,6 @@ const FileManager = () => (
               </div>
               <CardBody className="pt-0 text-center">
                 <div className="file-manger-icon">
-                  <img src={photo} alt="img" className="br-7" />
                 </div>
                 <h6 className="mb-1 font-weight-semibold mt-4">image.jpg</h6>
                 <span className="text-muted">65kb</span>
@@ -700,7 +689,6 @@ const FileManager = () => (
               </div>
               <CardBody className="pt-0 text-center">
                 <div className="file-manger-icon">
-                  <img src={folder} alt="img" className="br-7" />
                 </div>
                 <h6 className="mb-1 font-weight-semibold mt-4">
                   File documents
@@ -749,7 +737,6 @@ const FileManager = () => (
               </div>
               <CardBody className="pt-0 text-center">
                 <div className="file-manger-icon">
-                  <img src={folder} alt="img" className="br-7" />
                 </div>
                 <h6 className="mb-1 font-weight-semibold mt-4"> New Folder</h6>
                 <span className="text-muted">897mb</span>
@@ -796,7 +783,6 @@ const FileManager = () => (
               </div>
               <CardBody className="pt-0 text-center">
                 <div className="file-manger-icon">
-                  <img src={word} alt="img" className="br-7" />
                 </div>
                 <h6 className="mb-1 font-weight-semibold mt-4">
                   Word document
@@ -845,7 +831,6 @@ const FileManager = () => (
               </div>
               <CardBody className="pt-0 text-center">
                 <div className="file-manger-icon">
-                  <img src={file} alt="img" className="br-7" />
                 </div>
                 <h6 className="mb-1 font-weight-semibold mt-4">document.pdf</h6>
                 <span className="text-muted">23kb</span>

@@ -47,7 +47,7 @@ const LockScreen01 = () => {
                                             <div className="mb-3">
                                                 <Input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" />
                                             </div>
-                                            <Link to={`/dashboard/dashboard01`} className="btn btn-primary btn-block"><i className="fe fe-arrow-right"></i> Unlock</Link>
+                                            <Link href={`/dashboard/dashboard01`} className="btn btn-primary btn-block"><i className="fe fe-arrow-right"></i> Unlock</Link>
                                         </div>
                                     </CardBody>
                                 </Card>

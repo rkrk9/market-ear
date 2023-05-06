@@ -742,7 +742,7 @@ const FormElements = () =>{
                                             </Col>
                                         </Row>
                                         <div  className="form-footer mt-2">
-                                            <Link to="#"  className="btn btn-primary">Confirm  Details</Link>
+                                            <Link href="#"  className="btn btn-primary">Confirm  Details</Link>
                                         </div>
                                     </CardBody>
                                 </Card>
@@ -820,7 +820,7 @@ const FormElements = () =>{
                                             Your Credit card information is encrypted
                                         </div>
                                         <div  className="form-footer mt-2">
-                                            <Link to="#"  className="btn btn-primary">Make Payment</Link>
+                                            <Link href="#"  className="btn btn-primary">Make Payment</Link>
                                         </div>
                                     </CardBody>
                                 </Card>
@@ -940,11 +940,11 @@ const FormElements = () =>{
                                                             </div>
                                                         </Col>
                                                     </Row>
-                                                    <Link to="#"  className="btn btn-primary">Confirm</Link>
+                                                    <Link href="#"  className="btn btn-primary">Confirm</Link>
                                                 </TabPane>
                                                 <TabPane  className="tab-pane" tabId="tab21">
                                                     <p>Paypal is easiest way to pay online</p>
-                                                    <p><Link to="#"  className="btn btn-primary"><i  className="fa fa-paypal"></i> Log in my Paypal</Link></p>
+                                                    <p><Link href="#"  className="btn btn-primary"><i  className="fa fa-paypal"></i> Log in my Paypal</Link></p>
                                                     <p  className="mb-0"><strong>Note:</strong> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
                                                 </TabPane>
                                                 <TabPane  className="tab-pane" tabId="tab22">

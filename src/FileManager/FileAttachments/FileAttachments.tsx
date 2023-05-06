@@ -1,15 +1,6 @@
 import React from "react";
-import { PageHeaders } from "../../../../Shared/Prism/Prism";
-import fileimg1 from "../../../../assets/images/photos/fileimage1.jpg";
-import photo1 from "../../../../assets/images/photos/1.jpg";
-import photo2 from "../../../../assets/images/photos/2.jpg";
-import photo3 from "../../../../assets/images/photos/3.jpg";
-import photo4 from "../../../../assets/images/photos/4.jpg";
-import img1 from "../../../../assets/images/files/image.png";
-import doc1 from "../../../../assets/images/files/doc.png";
-import file2 from "../../../../assets/images/files/file2.png";
-import file1 from "../../../../assets/images/files/file.png";
-import { Link } from "react-router-dom";
+import { PageHeaders } from "@/Shared/Prism/Prism";
+import Link from 'next/link';
 import { Card,CardTitle, CardBody, CardHeader, Col, Row } from "reactstrap";
 
 const FileAttachments = () => (
@@ -33,7 +24,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-image"></i>
                 </span>{" "}
                 <span className="">Image01..._jpg </span>
-                <Link to="#" className="ms-4 text-white">
+                <Link href="#" className="ms-4 text-white">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -43,7 +34,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-music"></i>
                 </span>
                 music-mp3{" "}
-                <Link to="#" className="ms-4 text-white">
+                <Link href="#" className="ms-4 text-white">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -53,7 +44,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-video"></i>
                 </span>
                 video0014...-mp4{" "}
-                <Link to="#" className="ms-4 text-white">
+                <Link href="#" className="ms-4 text-white">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -63,7 +54,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-excel"></i>
                 </span>{" "}
                 Document.exl{" "}
-                <Link to="#" className="ms-4 text-white">
+                <Link href="#" className="ms-4 text-white">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -73,7 +64,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-pdf"></i>
                 </span>
                 AMN0012.pdf{" "}
-                <Link to="#" className="ms-4 text-white">
+                <Link href="#" className="ms-4 text-white">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -83,7 +74,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-zip-box"></i>
                 </span>{" "}
                 design00123.zip{" "}
-                <Link to="#" className="ms-4 text-white">
+                <Link href="#" className="ms-4 text-white">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -93,7 +84,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-word"></i>
                 </span>
                 Document.doc{" "}
-                <Link to="#" className="ms-4 text-white">
+                <Link href="#" className="ms-4 text-white">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -103,7 +94,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-powerpoint "></i>
                 </span>{" "}
                 prsentation.ppt{" "}
-                <Link to="#" className="ms-4 text-white">
+                <Link href="#" className="ms-4 text-white">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -113,7 +104,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-volume-high"></i>
                 </span>
                 audio-mp4{" "}
-                <Link to="#" className="ms-4 text-white">
+                <Link href="#" className="ms-4 text-white">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -133,7 +124,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-image"></i>
                 </span>{" "}
                 Image01..._jpg{" "}
-                <Link to="#" className="ms-4 text-primary">
+                <Link href="#" className="ms-4 text-primary">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -143,7 +134,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-music"></i>
                 </span>
                 music-mp3{" "}
-                <Link to="#" className="ms-4 text-info">
+                <Link href="#" className="ms-4 text-info">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -153,7 +144,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-video"></i>
                 </span>
                 video0014...-mp4{" "}
-                <Link to="#" className="ms-4 text-danger">
+                <Link href="#" className="ms-4 text-danger">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -163,7 +154,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-excel"></i>
                 </span>{" "}
                 Document.exl{" "}
-                <Link to="#" className="ms-4 text-success">
+                <Link href="#" className="ms-4 text-success">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -173,7 +164,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-pdf"></i>
                 </span>
                 AMN0012.pdf{" "}
-                <Link to="#" className="ms-4 text-danger">
+                <Link href="#" className="ms-4 text-danger">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -183,7 +174,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-zip-box"></i>
                 </span>{" "}
                 design00123.zip{" "}
-                <Link to="#" className="ms-4 text-primary">
+                <Link href="#" className="ms-4 text-primary">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -193,7 +184,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-word"></i>
                 </span>
                 Document.doc{" "}
-                <Link to="#" className="ms-4 text-info">
+                <Link href="#" className="ms-4 text-info">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -203,7 +194,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-powerpoint "></i>
                 </span>{" "}
                 prsentation.ppt{" "}
-                <Link to="#" className="ms-4 text-warning">
+                <Link href="#" className="ms-4 text-warning">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -213,7 +204,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-volume-high"></i>
                 </span>
                 audio-mp4{" "}
-                <Link to="#" className="ms-4 text-pink">
+                <Link href="#" className="ms-4 text-pink">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -233,7 +224,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-image"></i>
                 </span>{" "}
                 Image01..._jpg{" "}
-                <Link to="#" className="ms-4 text-white">
+                <Link href="#" className="ms-4 text-white">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -243,7 +234,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-music"></i>
                 </span>
                 music-mp3{" "}
-                <Link to="#" className="ms-4 text-white">
+                <Link href="#" className="ms-4 text-white">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -253,7 +244,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-video"></i>
                 </span>
                 video0014...-mp4{" "}
-                <Link to="#" className="ms-4 text-white">
+                <Link href="#" className="ms-4 text-white">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -263,7 +254,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-excel"></i>
                 </span>{" "}
                 Document.exl{" "}
-                <Link to="#" className="ms-4 text-white">
+                <Link href="#" className="ms-4 text-white">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -273,7 +264,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-pdf"></i>
                 </span>
                 AMN0012.pdf{" "}
-                <Link to="#" className="ms-4 text-white">
+                <Link href="#" className="ms-4 text-white">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -283,7 +274,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-zip-box"></i>
                 </span>{" "}
                 design00123.zip{" "}
-                <Link to="#" className="ms-4 text-white">
+                <Link href="#" className="ms-4 text-white">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -293,7 +284,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-word"></i>
                 </span>
                 Document.doc{" "}
-                <Link to="#" className="ms-4 text-white">
+                <Link href="#" className="ms-4 text-white">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -303,7 +294,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-powerpoint "></i>
                 </span>{" "}
                 prsentation.ppt{" "}
-                <Link to="#" className="ms-4 text-white">
+                <Link href="#" className="ms-4 text-white">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -313,7 +304,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-volume-high"></i>
                 </span>
                 audio-mp4{" "}
-                <Link to="#" className="ms-4 text-white">
+                <Link href="#" className="ms-4 text-white">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -333,7 +324,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-image"></i>
                 </span>{" "}
                 Image01..._jpg{" "}
-                <Link to="#" className="ms-4 text-primary">
+                <Link href="#" className="ms-4 text-primary">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -343,7 +334,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-music"></i>
                 </span>
                 music-mp3{" "}
-                <Link to="#" className="ms-4 text-info">
+                <Link href="#" className="ms-4 text-info">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -353,7 +344,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-video"></i>
                 </span>
                 video0014...-mp4{" "}
-                <Link to="#" className="ms-4 text-danger">
+                <Link href="#" className="ms-4 text-danger">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -363,7 +354,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-excel"></i>
                 </span>{" "}
                 Document.exl{" "}
-                <Link to="#" className="ms-4 text-success">
+                <Link href="#" className="ms-4 text-success">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -373,7 +364,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-pdf"></i>
                 </span>
                 AMN0012.pdf{" "}
-                <Link to="#" className="ms-4 text-danger">
+                <Link href="#" className="ms-4 text-danger">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -383,7 +374,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-zip-box"></i>
                 </span>{" "}
                 design00123.zip{" "}
-                <Link to="#" className="ms-4 text-primary">
+                <Link href="#" className="ms-4 text-primary">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -393,7 +384,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-word"></i>
                 </span>
                 Document.doc{" "}
-                <Link to="#" className="ms-4 text-info">
+                <Link href="#" className="ms-4 text-info">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -403,7 +394,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-powerpoint "></i>
                 </span>{" "}
                 prsentation.ppt{" "}
-                <Link to="#" className="ms-4 text-warning">
+                <Link href="#" className="ms-4 text-warning">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -413,7 +404,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-volume-high"></i>
                 </span>
                 audio-mp4{" "}
-                <Link to="#" className="ms-4 text-pink">
+                <Link href="#" className="ms-4 text-pink">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -433,7 +424,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-image tx-20"></i>
                 </span>{" "}
                 Image01..._jpg{" "}
-                <Link to="#" className="ms-4 text-white">
+                <Link href="#" className="ms-4 text-white">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -443,7 +434,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-music tx-24"></i>
                 </span>
                 music-mp3{" "}
-                <Link to="#" className="ms-4 text-white">
+                <Link href="#" className="ms-4 text-white">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -453,7 +444,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-video tx-24"></i>
                 </span>
                 video0014...-mp4{" "}
-                <Link to="#" className="ms-4 text-white">
+                <Link href="#" className="ms-4 text-white">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -475,7 +466,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-image tx-20"></i>
                 </span>{" "}
                 Image01..._jpg{" "}
-                <Link to="#" className="ms-4 text-warning">
+                <Link href="#" className="ms-4 text-warning">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -485,7 +476,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-music tx-24"></i>
                 </span>
                 music-mp3{" "}
-                <Link to="#" className="ms-4 text-success">
+                <Link href="#" className="ms-4 text-success">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -495,7 +486,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-video tx-24"></i>
                 </span>
                 video0014...-mp4{" "}
-                <Link to="#" className="ms-4 text-pink">
+                <Link href="#" className="ms-4 text-pink">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -515,7 +506,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-image tx-20"></i>
                 </span>{" "}
                 Image01..._jpg{" "}
-                <Link to="#" className="ms-4 text-white">
+                <Link href="#" className="ms-4 text-white">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -525,7 +516,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-music tx-24"></i>
                 </span>
                 music-mp3{" "}
-                <Link to="#" className="ms-4 text-white">
+                <Link href="#" className="ms-4 text-white">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -535,7 +526,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-video tx-24"></i>
                 </span>
                 video0014...-mp4{" "}
-                <Link to="#" className="ms-4 text-white">
+                <Link href="#" className="ms-4 text-white">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -555,7 +546,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-image tx-20"></i>
                 </span>{" "}
                 Image01..._jpg{" "}
-                <Link to="#" className="ms-4 text-warning">
+                <Link href="#" className="ms-4 text-warning">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -565,7 +556,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-music tx-24"></i>
                 </span>
                 music-mp3{" "}
-                <Link to="#" className="ms-4 text-success">
+                <Link href="#" className="ms-4 text-success">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -575,7 +566,7 @@ const FileAttachments = () => (
                   <i className="mdi mdi-file-video tx-24"></i>
                 </span>
                 video0014...-mp4{" "}
-                <Link to="#" className="ms-4 text-pink">
+                <Link href="#" className="ms-4 text-pink">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -596,12 +587,7 @@ const FileAttachments = () => (
           <CardBody>
             <div className="h-100  attached-file-grid6">
               <div className="pro-img-box attached-file-image">
-                <Link to="#">
-                  <img
-                    className=" pic-1 pos-relative br-5 w-100"
-                    src={photo1}
-                    alt="attached-file-image"
-                  />
+                <Link href="#">
                   <span className="image-pic">123image.jpg</span>
                 </Link>
               </div>
@@ -617,12 +603,7 @@ const FileAttachments = () => (
           <CardBody>
             <div className="h-100  attached-file-grid6">
               <div className="pro-img-box attached-file-image">
-                <Link to="#">
-                  <img
-                    className=" pic-1 pos-relative br-5 w-100"
-                    src={photo2}
-                    alt="attached-file-image"
-                  />
+                <Link href="#">
                   <span className="image-pic">123image.jpg</span>
                 </Link>
               </div>
@@ -638,12 +619,7 @@ const FileAttachments = () => (
           <CardBody>
             <div className="h-100  attached-file-grid6">
               <div className="pro-img-box attached-file-image">
-                <Link to="#">
-                  <img
-                    className=" pic-1 pos-relative br-5 w-100"
-                    src={photo3}
-                    alt="attached-file-image"
-                  />
+                <Link href="#">
                   <span className="image-pic">123image.jpg</span>
                 </Link>
               </div>
@@ -659,12 +635,7 @@ const FileAttachments = () => (
           <CardBody>
             <div className="h-100  attached-file-grid6">
               <div className="pro-img-box attached-file-image">
-                <Link to="#">
-                  <img
-                    className=" pic-1 pos-relative br-5 w-100"
-                    src={photo4}
-                    alt="attached-file-image"
-                  />
+                <Link href="#">
                   <span className="image-pic">123image.jpg</span>
                 </Link>
               </div>
@@ -686,22 +657,21 @@ const FileAttachments = () => (
             <div className="text-wrap pb-3">
               <div className="file-image-1">
                 <div className="product-image">
-                  <Link to={`/apps/filemanager/filedetails`}>
-                    <img src={img1} className="br-5" alt="" />
+                  <Link href={`/apps/filemanager/filedetails`}>
                   </Link>
                   <ul className="icons">
                     <li>
-                      <Link to="#" className="bg-danger">
+                      <Link href="#" className="bg-danger">
                         <i className="fe fe-trash"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-pink">
+                      <Link href="#" className="bg-pink">
                         <i className="fe fe-download"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-primary">
+                      <Link href="#" className="bg-primary">
                         <i className="fe fe-eye"></i>
                       </Link>
                     </li>
@@ -711,22 +681,21 @@ const FileAttachments = () => (
               </div>
               <div className="file-image-1">
                 <div className="product-image">
-                  <Link to={`/apps/filemanager/filedetails`}>
-                    <img src={doc1} alt="" />
+                  <Link href={`/apps/filemanager/filedetails`}>
                   </Link>
                   <ul className="icons">
                     <li>
-                      <Link to="#" className="bg-danger">
+                      <Link href="#" className="bg-danger">
                         <i className="fe fe-trash"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-pink">
+                      <Link href="#" className="bg-pink">
                         <i className="fe fe-download"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-primary">
+                      <Link href="#" className="bg-primary">
                         <i className="fe fe-eye"></i>
                       </Link>
                     </li>
@@ -736,22 +705,21 @@ const FileAttachments = () => (
               </div>
               <div className="file-image-1">
                 <div className="product-image">
-                  <Link to={`/apps/filemanager/filedetails`}>
-                    <img src={file2} alt="" />
+                  <Link href={`/apps/filemanager/filedetails`}>
                   </Link>
                   <ul className="icons">
                     <li>
-                      <Link to="#" className="bg-danger">
+                      <Link href="#" className="bg-danger">
                         <i className="fe fe-trash"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-pink">
+                      <Link href="#" className="bg-pink">
                         <i className="fe fe-download"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-primary">
+                      <Link href="#" className="bg-primary">
                         <i className="fe fe-eye"></i>
                       </Link>
                     </li>
@@ -761,22 +729,21 @@ const FileAttachments = () => (
               </div>
               <div className="file-image-1">
                 <div className="product-image">
-                  <Link to={`/apps/filemanager/filedetails`}>
-                    <img src={file1} alt="" />
+                  <Link href={`/apps/filemanager/filedetails`}>
                   </Link>
                   <ul className="icons">
                     <li>
-                      <Link to="#" className="bg-danger">
+                      <Link href="#" className="bg-danger">
                         <i className="fe fe-trash"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-pink">
+                      <Link href="#" className="bg-pink">
                         <i className="fe fe-download"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-primary">
+                      <Link href="#" className="bg-primary">
                         <i className="fe fe-eye"></i>
                       </Link>
                     </li>
@@ -786,22 +753,21 @@ const FileAttachments = () => (
               </div>
               <div className="file-image-1">
                 <div className="product-image">
-                  <Link to={`/apps/filemanager/filedetails`}>
-                    <img src={fileimg1} className="br-5" alt="" />
+                  <Link href={`/apps/filemanager/filedetails`}>
                   </Link>
                   <ul className="icons">
                     <li>
-                      <Link to="#" className="bg-danger">
+                      <Link href="#" className="bg-danger">
                         <i className="fe fe-trash"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-pink">
+                      <Link href="#" className="bg-pink">
                         <i className="fe fe-download"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-primary">
+                      <Link href="#" className="bg-primary">
                         <i className="fe fe-eye"></i>
                       </Link>
                     </li>
@@ -827,22 +793,21 @@ const FileAttachments = () => (
             <div className="text-wrap pb-3">
               <div className="file-image-1 file-image-md">
                 <div className="product-image">
-                  <Link to={`/apps/filemanager/filedetails`}>
-                    <img src={img1} className="br-5" alt="" />
+                  <Link href={`/apps/filemanager/filedetails`}>
                   </Link>
                   <ul className="icons">
                     <li>
-                      <Link to="#" className="bg-danger">
+                      <Link href="#" className="bg-danger">
                         <i className="fe fe-trash"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-pink">
+                      <Link href="#" className="bg-pink">
                         <i className="fe fe-download"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-primary">
+                      <Link href="#" className="bg-primary">
                         <i className="fe fe-eye"></i>
                       </Link>
                     </li>
@@ -852,22 +817,21 @@ const FileAttachments = () => (
               </div>
               <div className="file-image-1 file-image-md">
                 <div className="product-image">
-                  <Link to={`/apps/filemanager/filedetails`}>
-                    <img src={doc1} alt="" />
+                  <Link href={`/apps/filemanager/filedetails`}>
                   </Link>
                   <ul className="icons">
                     <li>
-                      <Link to="#" className="bg-danger">
+                      <Link href="#" className="bg-danger">
                         <i className="fe fe-trash"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-pink">
+                      <Link href="#" className="bg-pink">
                         <i className="fe fe-download"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-primary">
+                      <Link href="#" className="bg-primary">
                         <i className="fe fe-eye"></i>
                       </Link>
                     </li>
@@ -877,22 +841,21 @@ const FileAttachments = () => (
               </div>
               <div className="file-image-1 file-image-md">
                 <div className="product-image">
-                  <Link to={`/apps/filemanager/filedetails`}>
-                    <img src={file2} alt="" />
+                  <Link href={`/apps/filemanager/filedetails`}>
                   </Link>
                   <ul className="icons">
                     <li>
-                      <Link to="#" className="bg-danger">
+                      <Link href="#" className="bg-danger">
                         <i className="fe fe-trash"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-pink">
+                      <Link href="#" className="bg-pink">
                         <i className="fe fe-download"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-primary">
+                      <Link href="#" className="bg-primary">
                         <i className="fe fe-eye"></i>
                       </Link>
                     </li>
@@ -902,22 +865,21 @@ const FileAttachments = () => (
               </div>
               <div className="file-image-1 file-image-md">
                 <div className="product-image">
-                  <Link to={`/apps/filemanager/filedetails`}>
-                    <img src={file1} alt="" />
+                  <Link href={`/apps/filemanager/filedetails`}>
                   </Link>
                   <ul className="icons">
                     <li>
-                      <Link to="#" className="bg-danger">
+                      <Link href="#" className="bg-danger">
                         <i className="fe fe-trash"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-pink">
+                      <Link href="#" className="bg-pink">
                         <i className="fe fe-download"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-primary">
+                      <Link href="#" className="bg-primary">
                         <i className="fe fe-eye"></i>
                       </Link>
                     </li>
@@ -927,22 +889,21 @@ const FileAttachments = () => (
               </div>
               <div className="file-image-1 file-image-md">
                 <div className="product-image">
-                  <Link to={`/apps/filemanager/filedetails`}>
-                    <img src={fileimg1} className="br-5" alt="" />
+                  <Link href={`/apps/filemanager/filedetails`}>
                   </Link>
                   <ul className="icons">
                     <li>
-                      <Link to="#" className="bg-danger">
+                      <Link href="#" className="bg-danger">
                         <i className="fe fe-trash"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-pink">
+                      <Link href="#" className="bg-pink">
                         <i className="fe fe-download"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-primary">
+                      <Link href="#" className="bg-primary">
                         <i className="fe fe-eye"></i>
                       </Link>
                     </li>
@@ -968,22 +929,21 @@ const FileAttachments = () => (
             <div className="text-wrap pb-3">
               <div className="file-image-1 file-image-lg">
                 <div className="product-image">
-                  <Link to={`/apps/filemanager/filedetails`}>
-                    <img src={img1} className="br-5" alt="" />
+                  <Link href={`/apps/filemanager/filedetails`}>
                   </Link>
                   <ul className="icons">
                     <li>
-                      <Link to="#" className="bg-danger">
+                      <Link href="#" className="bg-danger">
                         <i className="fe fe-trash"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-pink">
+                      <Link href="#" className="bg-pink">
                         <i className="fe fe-download"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-primary">
+                      <Link href="#" className="bg-primary">
                         <i className="fe fe-eye"></i>
                       </Link>
                     </li>
@@ -993,22 +953,21 @@ const FileAttachments = () => (
               </div>
               <div className="file-image-1 file-image-lg">
                 <div className="product-image">
-                  <Link to={`/apps/filemanager/filedetails`}>
-                    <img src={doc1} alt="" />
+                  <Link href={`/apps/filemanager/filedetails`}>
                   </Link>
                   <ul className="icons">
                     <li>
-                      <Link to="#" className="bg-danger">
+                      <Link href="#" className="bg-danger">
                         <i className="fe fe-trash"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-pink">
+                      <Link href="#" className="bg-pink">
                         <i className="fe fe-download"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-primary">
+                      <Link href="#" className="bg-primary">
                         <i className="fe fe-eye"></i>
                       </Link>
                     </li>
@@ -1018,22 +977,21 @@ const FileAttachments = () => (
               </div>
               <div className="file-image-1 file-image-lg">
                 <div className="product-image">
-                  <Link to={`/apps/filemanager/filedetails`}>
-                    <img src={file2} alt="" />
+                  <Link href={`/apps/filemanager/filedetails`}>
                   </Link>
                   <ul className="icons">
                     <li>
-                      <Link to="#" className="bg-danger">
+                      <Link href="#" className="bg-danger">
                         <i className="fe fe-trash"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-pink">
+                      <Link href="#" className="bg-pink">
                         <i className="fe fe-download"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-primary">
+                      <Link href="#" className="bg-primary">
                         <i className="fe fe-eye"></i>
                       </Link>
                     </li>
@@ -1043,22 +1001,21 @@ const FileAttachments = () => (
               </div>
               <div className="file-image-1 file-image-lg">
                 <div className="product-image">
-                  <Link to={`/apps/filemanager/filedetails`}>
-                    <img src={file1} alt="" />
+                  <Link href={`/apps/filemanager/filedetails`}>
                   </Link>
                   <ul className="icons">
                     <li>
-                      <Link to="#" className="bg-danger">
+                      <Link href="#" className="bg-danger">
                         <i className="fe fe-trash"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-pink">
+                      <Link href="#" className="bg-pink">
                         <i className="fe fe-download"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-primary">
+                      <Link href="#" className="bg-primary">
                         <i className="fe fe-eye"></i>
                       </Link>
                     </li>
@@ -1068,22 +1025,21 @@ const FileAttachments = () => (
               </div>
               <div className="file-image-1 file-image-lg">
                 <div className="product-image">
-                  <Link to={`/apps/filemanager/filedetails`}>
-                    <img src={fileimg1} className="br-5" alt="" />
+                  <Link href={`/apps/filemanager/filedetails`}>
                   </Link>
                   <ul className="icons">
                     <li>
-                      <Link to="#" className="bg-danger">
+                      <Link href="#" className="bg-danger">
                         <i className="fe fe-trash"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-pink">
+                      <Link href="#" className="bg-pink">
                         <i className="fe fe-download"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="bg-primary">
+                      <Link href="#" className="bg-primary">
                         <i className="fe fe-eye"></i>
                       </Link>
                     </li>

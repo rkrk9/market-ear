@@ -1,12 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import file from "../../../../assets/images/files/file.png";
-import folder from "../../../../assets/images/files/folder.png";
-import photo from "../../../../assets/images/photos/1.jpg";
-import word from "../../../../assets/images/files/word.png";
-import { PageHeaders } from "../../../../Shared/Prism/Prism";
+import Link from 'next/link';
+import Image from 'next/image';
+import { PageHeaders } from "@/Shared/Prism/Prism";
 import { Card, CardBody, Col,Table,Button,Form,Input, Label, ListGroup, ListGroupItem, Row } from "reactstrap";
-import * as data from "./data";
 const FileManager02 = () => (
   <div>
     <PageHeaders
@@ -19,7 +15,6 @@ const FileManager02 = () => (
       <Col lg="4"xl="3">
         <Card>
           <CardBody className="d-flex">
-            <data.Round />
               <div className="mx-auto chart-circle-value chartcirclevalue text-center fs-14">
                 85%
             </div>
@@ -244,10 +239,10 @@ const FileManager02 = () => (
       <Col xl="9"lg="8">
         <Row>
           <Col className="mb-4">
-            <Link to="#" className="btn btn-primary mb-1 me-1">
+            <Link href="#" className="btn btn-primary mb-1 me-1">
               <i className="fe fe-plus"></i> Upload New Files
             </Link>
-            <Link to="#" className="btn btn-light mb-1">
+            <Link href="#" className="btn btn-light mb-1">
               <i className="fe fe-folder"></i> New folder
             </Link>
           </Col>
@@ -286,7 +281,7 @@ const FileManager02 = () => (
                       </td>
                       <td className="align-middle">
                         <div className="d-flex">
-                          <img src={file} alt="img" className="w-5 h-5 me-2" />
+                          <Image src={"src/assets/images/files/file.png"} alt="img" className="w-5 h-5 me-2" />
                           <div className="mt-1">document.pdf</div>
                         </div>
                       </td>
@@ -310,11 +305,6 @@ const FileManager02 = () => (
                       </td>
                       <td className="align-middle">
                         <div className="d-flex">
-                          <img
-                            src={folder}
-                            alt="img"
-                            className="w-5 h-5 me-2"
-                          />
                           <div className="mt-1">Images</div>
                         </div>
                       </td>
@@ -338,11 +328,6 @@ const FileManager02 = () => (
                       </td>
                       <td className="align-middle">
                         <div className="d-flex">
-                          <img
-                            src={folder}
-                            alt="img"
-                            className="w-5 h-5 me-2"
-                          />
                           <div className="mt-1">Videos</div>
                         </div>
                       </td>
@@ -366,11 +351,6 @@ const FileManager02 = () => (
                       </td>
                       <td className="align-middle">
                         <div className="d-flex">
-                          <img
-                            src={folder}
-                            alt="img"
-                            className="w-5 h-5 me-2"
-                          />
                           <div className="mt-1">Documents</div>
                         </div>
                       </td>
@@ -394,11 +374,6 @@ const FileManager02 = () => (
                       </td>
                       <td className="align-middle">
                         <div className="d-flex">
-                          <img
-                            src={folder}
-                            alt="img"
-                            className="w-5 h-5 me-2"
-                          />
                           <div className="mt-1">Music</div>
                         </div>
                       </td>
@@ -422,11 +397,6 @@ const FileManager02 = () => (
                       </td>
                       <td className="align-middle">
                         <div className="d-flex">
-                          <img
-                            src={folder}
-                            alt="img"
-                            className="w-5 h-5 me-2"
-                          />
                           <div className="mt-1">Downloads</div>
                         </div>
                       </td>
@@ -474,11 +444,6 @@ const FileManager02 = () => (
                       </td>
                       <td className="align-middle">
                         <div className="d-flex">
-                          <img
-                            src={photo}
-                            alt="img"
-                            className="w-5 h-5 me-2 br-3"
-                          />
                           <div className="mt-1">Image</div>
                         </div>
                       </td>
@@ -502,11 +467,6 @@ const FileManager02 = () => (
                       </td>
                       <td className="align-middle">
                         <div className="d-flex">
-                          <img
-                            src={folder}
-                            alt="img"
-                            className="w-5 h-5 me-2"
-                          />
                           <div className="mt-1">File Documents</div>
                         </div>
                       </td>
@@ -530,11 +490,6 @@ const FileManager02 = () => (
                       </td>
                       <td className="align-middle">
                         <div className="d-flex">
-                          <img
-                            src={folder}
-                            alt="img"
-                            className="w-5 h-5 me-2"
-                          />
                           <div className="mt-1">New Folder</div>
                         </div>
                       </td>
@@ -558,7 +513,6 @@ const FileManager02 = () => (
                       </td>
                       <td className="align-middle">
                         <div className="d-flex">
-                          <img src={word} alt="img" className="w-5 h-5 me-2" />
                           <div className="mt-1">Word Document</div>
                         </div>
                       </td>
@@ -584,7 +538,6 @@ const FileManager02 = () => (
                       </td>
                       <td className="align-middle">
                         <div className="d-flex">
-                          <img src={file} alt="img" className="w-5 h-5 me-2" />
                           <div className="mt-1">Pdfdocument</div>
                         </div>
                       </td>

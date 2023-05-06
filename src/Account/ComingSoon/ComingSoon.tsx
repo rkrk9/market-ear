@@ -1,6 +1,6 @@
 import React from "react";
 import { Progress, Row, Col, Input } from "reactstrap";
-import { Link } from "react-router-dom";
+import Link from 'next/link';
 
 const ComingSoon = () => {
 	document.querySelector("body")?.classList.add("main-body", "light-mode", "ltr", "page-style1", "error-page");
@@ -107,7 +107,7 @@ const ComingSoon = () => {
                     className="form-control"
                     placeholder="Enter Your Email"
                   />
-                  <Link to="#" className="input-group-text bg-white p-2 btn">
+                  <Link href="#" className="input-group-text bg-white p-2 btn">
                     <svg
                       className="svg-icon send-icon"
                       xmlns="http://www.w3.org/2000/svg"

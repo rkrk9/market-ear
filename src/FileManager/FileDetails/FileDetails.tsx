@@ -1,16 +1,10 @@
 import React from "react";
-import { PageHeaders } from "../../../../Shared/Prism/Prism";
-import blog from "../../../../assets/images/photos/blog-main.jpg"
+import { PageHeaders } from "@/Shared/Prism/Prism";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import {LightGallery, settings} from "./data"
-import { Link } from 'react-router-dom';
-import fileimg4 from "../../../../assets/images/photos/fileimage4.jpg"
-import fileimg1 from "../../../../assets/images/photos/fileimage1.jpg"
-import fileimg2 from "../../../../assets/images/photos/fileimage2.jpg"
-import fileimg3 from "../../../../assets/images/photos/fileimage3.jpg"
-import fileimg5 from "../../../../assets/images/photos/fileimage5.jpg"
+import Link from 'next/link';
 import { Card, CardBody, Col, Row, Table } from "reactstrap";
 
 
@@ -27,12 +21,7 @@ const FileDetails = () => (
       <Col xl="8"lg="12"md="12">
         <Card className="overflow-hidden">
           <CardBody className="px-4 pt-4">
-            <Link to={`/pages/blog/blog03`}>
-              <img
-                src={blog}
-                alt="img"
-                className="cover-image br-5 w-100"
-              />
+            <Link href={`/pages/blog/blog03`}>
             </Link>
           </CardBody>
         </Card>
@@ -96,11 +85,7 @@ const FileDetails = () => (
                   <div className="item">
                     <div className="slicksliders">
                       <div className="custom-card overflow-hidden mb-0 me-2 br-5">
-                        <Link to={`/apps/filemanager/filedetails`}>
-                          <img className=""
-                            alt=""
-                            src={fileimg4}
-                          />
+                        <Link href={`/apps/filemanager/filedetails`}>
                         </Link>
                       </div>
                     </div>
@@ -108,11 +93,7 @@ const FileDetails = () => (
                   <div className="item">
                     <div className="slicksliders">
                       <div className="custom-card overflow-hidden mb-0 me-2 br-5">
-                        <Link to={`/apps/filemanager/filedetails`}>
-                          <img className=""
-                            alt=""
-                            src={fileimg1}
-                          />
+                        <Link href={`/apps/filemanager/filedetails`}>
                         </Link>
                       </div>
                     </div>
@@ -120,11 +101,7 @@ const FileDetails = () => (
                   <div className="item">
                     <div className="slicksliders">
                       <div className="custom-card overflow-hidden mb-0 me-2 br-5">
-                        <Link to={`/apps/filemanager/filedetails`}>
-                          <img className=""
-                            alt=""
-                            src={fileimg2}
-                          />
+                        <Link href={`/apps/filemanager/filedetails`}>
                         </Link>
                       </div>
                     </div>
@@ -132,11 +109,7 @@ const FileDetails = () => (
                   <div className="item">
                     <div className="slicksliders">
                       <div className="custom-card overflow-hidden mb-0 me-2 br-5">
-                        <Link to={`/apps/filemanager/filedetails`}>
-                          <img className=""
-                            alt=""
-                            src={fileimg3}
-                          />
+                        <Link href={`/apps/filemanager/filedetails`}>
                         </Link>
                       </div>
                     </div>
@@ -144,11 +117,7 @@ const FileDetails = () => (
                   <div className="item">
                     <div className="slicksliders">
                       <div className="custom-card overflow-hidden mb-0 me-2 br-5">
-                        <Link to={`/apps/filemanager/filedetails`}>
-                          <img className=""
-                            alt=""
-                            src={fileimg4}
-                          />
+                        <Link href={`/apps/filemanager/filedetails`}>
                         </Link>
                       </div>
                     </div>
@@ -156,11 +125,7 @@ const FileDetails = () => (
                   <div className="item">
                     <div className="slicksliders">
                       <div className="custom-card overflow-hidden mb-0 me-2 br-5">
-                        <Link to={`/apps/filemanager/filedetails`}>
-                          <img className=""
-                            alt=""
-                            src={fileimg5}
-                          />
+                        <Link href={`/apps/filemanager/filedetails`}>
                         </Link>
                       </div>
                     </div>
@@ -168,11 +133,7 @@ const FileDetails = () => (
                   <div className="item">
                     <div className="slicksliders">
                       <div className="custom-card overflow-hidden mb-0 me-2 br-5">
-                        <Link to={`/apps/filemanager/filedetails`}>
-                          <img className=""
-                            alt=""
-                            src={fileimg1}
-                          />
+                        <Link href={`/apps/filemanager/filedetails`}>
                         </Link>
                       </div>
                     </div>
@@ -180,11 +141,7 @@ const FileDetails = () => (
                   <div className="item">
                     <div className="slicksliders">
                       <div className="custom-card overflow-hidden mb-0 me-2 br-5">
-                        <Link to={`/apps/filemanager/filedetails`}>
-                          <img className=""
-                            alt=""
-                            src={fileimg3}
-                          />
+                        <Link href={`/apps/filemanager/filedetails`}>
                         </Link>
                       </div>
                     </div>

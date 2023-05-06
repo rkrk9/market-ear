@@ -67,7 +67,7 @@ const Login02 = () => {
 										</InputGroup>
 										<Row>
 											<Col className="col-12">
-												<Link to={`/account/forgetpassword/forgetpassword01`} className="btn btn-link box-shadow-0 px-0">Forgot password?</Link>
+												<Link href={`/account/forgetpassword/forgetpassword01`} className="btn btn-link box-shadow-0 px-0">Forgot password?</Link>
 											</Col>
 											<Col className="col-12">
 												<Link role="button" to={`/dashboard/dashboard01`} className="btn btn-primary btn-block"> <i className="fe fe-arrow-right"></i> Login</Link>

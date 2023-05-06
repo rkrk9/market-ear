@@ -49,7 +49,7 @@ const ForgetPassword01 = () => {
 								<div className="mb-3">
 									<Label className="custom-control custom-checkbox">
 										<Input type="checkbox" className="custom-control-input" />
-										<span className="custom-control-label">Agree the <Link to={`/pages/terms`}>terms and policy</Link></span>
+										<span className="custom-control-label">Agree the <Link href={`/pages/terms`}>terms and policy</Link></span>
 									</Label>
 								</div>
 								<Row>

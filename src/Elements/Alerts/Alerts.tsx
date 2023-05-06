@@ -1,6 +1,6 @@
 import React,{ LegacyRef, useState, useRef } from "react";
-import { Link } from "react-router-dom";
-import { Alert, Button, Card, CardBody, CardHeader, CardTitle,TabContent,TabPane, Col, Nav, NavItem, NavLink, PopoverBody, PopoverHeader, Row, UncontrolledAlert, UncontrolledPopover } from "reactstrap";
+import Link from 'next/link';
+import { Alert, Button, Card, CardBody, CardHeader, CardTitle,TabContent,TabPane, Col, Nav, NavItem, NavLink, PopoverBody, PopoverHeader, Row, UncontrolledPopover } from "reactstrap";
 import { PageHeaders } from "../../../Shared/Prism/Prism";
 import {initialList,LinkData,AlertsStyle,Alerticon} from "./data";
 

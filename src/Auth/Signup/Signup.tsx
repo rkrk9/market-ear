@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Alert, Button, Card, CardBody, Col, Input, InputGroup, Label, Row } from 'reactstrap';
 import { auth } from '../../Firebase/firebase';
 
@@ -68,7 +68,7 @@ const Register = () => {
                                 <div className="mb-3">
                                     <Label className="custom-control custom-checkbox">
                                             <Input type="checkbox" className="custom-control-input" />
-                                            <span className="custom-control-label">Agree the <Link to="#" className="btn-link">Terms and policy</Link></span>
+                                            <span className="custom-control-label">Agree the <Link href="#" className="btn-link">Terms and policy</Link></span>
                                         </Label>
                                 </div>
                                 <Row>

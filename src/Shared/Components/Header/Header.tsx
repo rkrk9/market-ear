@@ -569,7 +569,7 @@ const Fullscreen: any = (vale: any) => {
                           </div>
                         </DropdownItem>
                         <div className=" text-center p-2 border-top">
-                          <Link to={`/pages/email/emailinbox/`} className="">
+                          <Link href={`/pages/email/emailinbox/`} className="">
                             View All Notifications
                           </Link>
                         </div>

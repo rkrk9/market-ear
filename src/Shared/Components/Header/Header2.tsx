@@ -11,7 +11,7 @@ import {
   DropdownItem,
   Form,
 } from "reactstrap";
-import { Link } from "react-router-dom";
+import Link from 'next/link';
 import user16 from "../../../assets/images/users/16.jpg";
 import logo from "../../../assets/images/brand/logo.png";
 import logo1 from "../../../assets/images/brand/logo1.png";

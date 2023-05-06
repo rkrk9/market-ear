@@ -8,7 +8,7 @@ import {
   UncontrolledTooltip,
   CardTitle,
 } from "reactstrap";
-import { PageHeaders } from "../../../Shared/Prism/Prism";
+import { PageHeaders } from "@/Shared/Prism/Prism";
 
 const WeatherIcons = () => (
   <div>

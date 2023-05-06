@@ -11,7 +11,7 @@ import {
   Row,
   Nav,
 } from "reactstrap";
-import { PageHeaders } from "../../../Shared/Prism/Prism";
+import { PageHeaders } from "@/Shared/Prism/Prism";
 
 const Paginations = () => {
 

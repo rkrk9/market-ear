@@ -1,6 +1,6 @@
 
 import React, { Fragment, useState, useEffect } from "react";
-import { menu, MENUITEMS } from "./SideMenu";
+import { MENUITEMS } from "./SideMenu";
 import SimpleBar from 'simplebar-react';
 import { NavLink } from "react-router-dom";
 import { useLocation } from "react-router-dom";
@@ -9,7 +9,7 @@ import images from "../../../assets/images/brand/favicon.png"
 import logo from "../../../assets/images/brand/logo1.png"
 import logos from "../../../assets/images/brand/logo.png"
 import user from "../../../assets/images/users/16.jpg"
-import { Link } from "react-router-dom";
+import Link from 'next/link';
 import {
   UncontrolledDropdown, DropdownToggle,
   DropdownMenu,
@@ -424,7 +424,7 @@ const Sidebar = () => {
                       <p className="mb-1">Your Fax Number</p>
                       <DropdownItem className="font-weight-bold" href="#">88 8888 8888</DropdownItem>
                     </div>
-                    <Link to={`/account/login/login01`}>Logout</Link>
+                    <Link href={`/account/login/login01`}>Logout</Link>
                   </DropdownMenu>
                   <div className="ms-auto">
                     <a className="nav-link icon p-0" href="#">

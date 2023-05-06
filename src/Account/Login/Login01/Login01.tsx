@@ -58,10 +58,10 @@ const Login01 = () => {
                                         </InputGroup>
                                         <Row>
                                             <Col className="col-12">
-                                                <Link to={`/dashboard/dashboard01`} role="button" className="btn btn-lg btn-primary btn-block"><i className="fe fe-arrow-right"></i> Login</Link>
+                                                <Link href={`/dashboard/dashboard01`} role="button" className="btn btn-lg btn-primary btn-block"><i className="fe fe-arrow-right"></i> Login</Link>
                                             </Col>
                                             <Col className="col-12">
-                                                <Link to={`/account/forgetpassword/forgetpassword01`} className="btn btn-link box-shadow-0 px-0">Forgot password?</Link>
+                                                <Link href={`/account/forgetpassword/forgetpassword01`} className="btn btn-link box-shadow-0 px-0">Forgot password?</Link>
                                             </Col>
                                         </Row>
                                     </CardBody>

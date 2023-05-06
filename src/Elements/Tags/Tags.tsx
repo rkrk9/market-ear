@@ -9,7 +9,7 @@ import user7 from "../../../assets/images/users/7.jpg";
 import user11 from "../../../assets/images/users/11.jpg";
 import { Card, CardBody, CardHeader, CardTitle, Col, Row } from "reactstrap";
 import { PageHeaders } from "../../../Shared/Prism/Prism";
-import { Link } from "react-router-dom";
+import Link from 'next/link';
 
 const Tags = () => {
 
@@ -103,13 +103,13 @@ const Tags = () => {
           </CardHeader>
           <CardBody>
             <div className="tags">
-              <Link to="#" className="tag">
+              <Link href="#" className="tag">
                 First tag
               </Link>
-              <Link to="#" className="tag">
+              <Link href="#" className="tag">
                 Second tag
               </Link>
-              <Link to="#" className="tag">
+              <Link href="#" className="tag">
                 Third tag
               </Link>
             </div>
@@ -132,13 +132,13 @@ const Tags = () => {
             <pre ref={elementRef2}>
               <code className="language-markup mb-0">{`
     <div className="tags">
-      <Link to="#" className="tag">
+      <Link href="#" className="tag">
         First tag
       </Link>
-      <Link to="#" className="tag">
+      <Link href="#" className="tag">
         Second tag
       </Link>
-      <Link to="#" className="tag">
+      <Link href="#" className="tag">
         Third tag
       </Link>
     </div>
@@ -595,25 +595,25 @@ const Tags = () => {
             <div className="tags">
               <span className="tag">
                 One
-                <Link to="#" className="tag-addon">
+                <Link href="#" className="tag-addon">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
               <span className="tag">
                 Two
-                <Link to="#" className="tag-addon">
+                <Link href="#" className="tag-addon">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
               <span className="tag">
                 Three
-                <Link to="#" className="tag-addon">
+                <Link href="#" className="tag-addon">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
               <span className="tag">
                 Four
-                <Link to="#" className="tag-addon">
+                <Link href="#" className="tag-addon">
                   <i className="fe fe-x"></i>
                 </Link>
               </span>
@@ -639,25 +639,25 @@ const Tags = () => {
                   <div className="tags">
                     <span className="tag">
                       One
-                      <Link to="#" className="tag-addon">
+                      <Link href="#" className="tag-addon">
                         <i className="fe fe-x"></i>
                       </Link>
                     </span>
                     <span className="tag">
                       Two
-                      <Link to="#" className="tag-addon">
+                      <Link href="#" className="tag-addon">
                         <i className="fe fe-x"></i>
                       </Link>
                     </span>
                     <span className="tag">
                       Three
-                      <Link to="#" className="tag-addon">
+                      <Link href="#" className="tag-addon">
                         <i className="fe fe-x"></i>
                       </Link>
                     </span>
                     <span className="tag">
                       Four
-                      <Link to="#" className="tag-addon">
+                      <Link href="#" className="tag-addon">
                         <i className="fe fe-x"></i>
                       </Link>
                     </span>
@@ -693,7 +693,7 @@ const Tags = () => {
             <div className="tags">
               <div className="tag">
                 npm
-                <Link to="#" className="tag-addon">
+                <Link href="#" className="tag-addon">
                   <i className="fe fe-x"></i>
                 </Link>
               </div>
@@ -733,7 +733,7 @@ const Tags = () => {
               <div className="tags">
                     <div className="tag">
                       npm
-                      <Link to="#" className="tag-addon">
+                      <Link href="#" className="tag-addon">
                         <i className="fe fe-x"></i>
                       </Link>
                     </div>

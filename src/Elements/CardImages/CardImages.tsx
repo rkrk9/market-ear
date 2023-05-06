@@ -11,13 +11,11 @@ import photo12 from "../../../assets/images/photos/12.jpg";
 import photo13 from "../../../assets/images/photos/13.jpg";
 import photo14 from "../../../assets/images/photos/14.jpg";
 import photo15 from "../../../assets/images/photos/15.jpg";
-import user16 from "../../../assets/images/users/16.jpg";
-import user10 from "../../../assets/images/users/10.jpg";
 
 import { PageHeaders } from "../../../Shared/Prism/Prism";
 import { Card,Button,CardHeader,CardTitle, CardBody, CardFooter, Col, Row, CardImg } from "reactstrap";
 import { BuiltCard, BuiltCard2,Employeecard,Employeecard2 } from "./data";
-import { Link } from "react-router-dom";
+import Link from 'next/link';
 
 const CardImages = () => {
 
@@ -189,13 +187,13 @@ const CardImages = () => {
             </div>
             <div className="d-flex align-items-center pt-5 mt-auto text-center ">
               <div className="text-muted">
-                <Link to="#" className="icon d-none d-md-inline-block ms-3">
+                <Link href="#" className="icon d-none d-md-inline-block ms-3">
                   <i className="fa fa-step-backward"></i>
                 </Link>
-                <Link to="#" className="icon d-none d-md-inline-block ms-3">
+                <Link href="#" className="icon d-none d-md-inline-block ms-3">
                   <i className="fa fa-play "></i>
                 </Link>
-                <Link to="#" className="icon d-none d-md-inline-block ms-3">
+                <Link href="#" className="icon d-none d-md-inline-block ms-3">
                   <i className="fa fa-step-forward"></i>
                 </Link>
               </div>
@@ -212,7 +210,7 @@ const CardImages = () => {
         <Card className="card-aside bg-primary">
           <CardBody className="-flex flex-column">
             <h4>
-              <Link to="#" className="text-white">
+              <Link href="#" className="text-white">
                 Play Music
               </Link>
             </h4>
@@ -222,13 +220,13 @@ const CardImages = () => {
             </div>
             <div className="d-flex align-items-center pt-5 mt-auto text-center ">
               <div className="text-muted">
-                <Link to="#" className="icon d-none d-md-inline-block ms-3">
+                <Link href="#" className="icon d-none d-md-inline-block ms-3">
                   <i className="fa fa-step-backward text-white"></i>
                 </Link>
-                <Link to="#" className="icon d-none d-md-inline-block ms-3">
+                <Link href="#" className="icon d-none d-md-inline-block ms-3">
                   <i className="fa fa-play text-white "></i>
                 </Link>
-                <Link to="#" className="icon d-none d-md-inline-block ms-3">
+                <Link href="#" className="icon d-none d-md-inline-block ms-3">
                   <i className="fa fa-step-forward text-white"></i>
                 </Link>
               </div>

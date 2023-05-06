@@ -1,6 +1,6 @@
 import React, { LegacyRef, useRef } from "react";
 import { Card, CardBody, CardHeader, CardTitle, Col, Row } from "reactstrap";
-import { Link } from "react-router-dom";
+import Link from 'next/link';
 import { PageHeaders } from "../../../Shared/Prism/Prism";
 
 const List = () => {
@@ -182,19 +182,19 @@ const List = () => {
           <CardBody>
             <div className="panel panel-default">
               <div className="list-group">
-                <Link to="#" className="list-group-item">
+                <Link href="#" className="list-group-item">
                   Cras justo odio
                 </Link>
-                <Link to="#" className="list-group-item active">
+                <Link href="#" className="list-group-item active">
                   Dapibus ac facilisis in
                 </Link>
-                <Link to="#" className="list-group-item">
+                <Link href="#" className="list-group-item">
                   Morbi leo risus
                 </Link>
-                <Link to="#" className="list-group-item">
+                <Link href="#" className="list-group-item">
                   Porta ac consectetur ac
                 </Link>
-                <Link to="#" className="list-group-item">
+                <Link href="#" className="list-group-item">
                   Vestibulum at eros
                 </Link>
               </div>
@@ -219,19 +219,19 @@ const List = () => {
               <code className="language-markup mb-0">{`
     <div className="panel panel-default">
       <div className="list-group">
-        <Link to="#" className="list-group-item">
+        <Link href="#" className="list-group-item">
           Cras justo odio
         </Link>
-        <Link to="#" className="list-group-item active">
+        <Link href="#" className="list-group-item active">
           Dapibus ac facilisis in
         </Link>
-        <Link to="#" className="list-group-item">
+        <Link href="#" className="list-group-item">
           Morbi leo risus
         </Link>
-        <Link to="#" className="list-group-item">
+        <Link href="#" className="list-group-item">
           Porta ac consectetur ac
         </Link>
-        <Link to="#" className="list-group-item">
+        <Link href="#" className="list-group-item">
           Vestibulum at eros
         </Link>
       </div>
@@ -267,19 +267,19 @@ const List = () => {
           <CardBody>
             <div className="panel panel-primary">
               <div className="list-group">
-                <Link to="#" className="list-group-item">
+                <Link href="#" className="list-group-item">
                   Cras justo odio
                 </Link>
-                <Link to="#" className="list-group-item active">
+                <Link href="#" className="list-group-item active">
                   Dapibus ac facilisis in
                 </Link>
-                <Link to="#" className="list-group-item">
+                <Link href="#" className="list-group-item">
                   Morbi leo risus
                 </Link>
-                <Link to="#" className="list-group-item">
+                <Link href="#" className="list-group-item">
                   Porta ac consectetur ac
                 </Link>
-                <Link to="#" className="list-group-item">
+                <Link href="#" className="list-group-item">
                   Vestibulum at eros
                 </Link>
               </div>
@@ -304,19 +304,19 @@ const List = () => {
               <code className="language-markup mb-0"> {` 
     <div className="panel panel-primary">
       <div className="list-group">
-        <Link to="#" className="list-group-item">
+        <Link href="#" className="list-group-item">
           Cras justo odio
         </Link>
-        <Link to="#" className="list-group-item active">
+        <Link href="#" className="list-group-item active">
           Dapibus ac facilisis in
         </Link>
-        <Link to="#" className="list-group-item">
+        <Link href="#" className="list-group-item">
           Morbi leo risus
         </Link>
-        <Link to="#" className="list-group-item">
+        <Link href="#" className="list-group-item">
           Porta ac consectetur ac
         </Link>
-        <Link to="#" className="list-group-item">
+        <Link href="#" className="list-group-item">
           Vestibulum at eros
         </Link>
       </div>
@@ -352,19 +352,19 @@ const List = () => {
           <CardBody>
             <div className="panel panel-success">
               <div className="list-group">
-                <Link to="#" className="list-group-item">
+                <Link href="#" className="list-group-item">
                   Cras justo odio
                 </Link>
-                <Link to="#" className="list-group-item active">
+                <Link href="#" className="list-group-item active">
                   Dapibus ac facilisis in
                 </Link>
-                <Link to="#" className="list-group-item">
+                <Link href="#" className="list-group-item">
                   Morbi leo risus
                 </Link>
-                <Link to="#" className="list-group-item">
+                <Link href="#" className="list-group-item">
                   Porta ac consectetur ac
                 </Link>
-                <Link to="#" className="list-group-item">
+                <Link href="#" className="list-group-item">
                   Vestibulum at eros
                 </Link>
               </div>
@@ -389,19 +389,19 @@ const List = () => {
               <code className="language-markup mb-0">{`
     <div className="panel panel-success">
       <div className="list-group">
-        <Link to="#" className="list-group-item">
+        <Link href="#" className="list-group-item">
           Cras justo odio
         </Link>
-        <Link to="#" className="list-group-item active">
+        <Link href="#" className="list-group-item active">
           Dapibus ac facilisis in
         </Link>
-        <Link to="#" className="list-group-item">
+        <Link href="#" className="list-group-item">
           Morbi leo risus
         </Link>
-        <Link to="#" className="list-group-item">
+        <Link href="#" className="list-group-item">
           Porta ac consectetur ac
         </Link>
-        <Link to="#" className="list-group-item">
+        <Link href="#" className="list-group-item">
           Vestibulum at eros
         </Link>
       </div>
@@ -437,19 +437,19 @@ const List = () => {
           <CardBody>
             <div className="panel panel-info">
               <div className="list-group">
-                <Link to="#" className="list-group-item">
+                <Link href="#" className="list-group-item">
                   Cras justo odio
                 </Link>
-                <Link to="#" className="list-group-item active">
+                <Link href="#" className="list-group-item active">
                   Dapibus ac facilisis in
                 </Link>
-                <Link to="#" className="list-group-item">
+                <Link href="#" className="list-group-item">
                   Morbi leo risus
                 </Link>
-                <Link to="#" className="list-group-item">
+                <Link href="#" className="list-group-item">
                   Porta ac consectetur ac
                 </Link>
-                <Link to="#" className="list-group-item">
+                <Link href="#" className="list-group-item">
                   Vestibulum at eros
                 </Link>
               </div>
@@ -474,19 +474,19 @@ const List = () => {
               <code className="language-markup mb-0">{`
     <div className="panel panel-info">
       <div className="list-group">
-        <Link to="#" className="list-group-item">
+        <Link href="#" className="list-group-item">
           Cras justo odio
         </Link>
-        <Link to="#" className="list-group-item active">
+        <Link href="#" className="list-group-item active">
           Dapibus ac facilisis in
         </Link>
-        <Link to="#" className="list-group-item">
+        <Link href="#" className="list-group-item">
           Morbi leo risus
         </Link>
-        <Link to="#" className="list-group-item">
+        <Link href="#" className="list-group-item">
           Porta ac consectetur ac
         </Link>
-        <Link to="#" className="list-group-item">
+        <Link href="#" className="list-group-item">
           Vestibulum at eros
         </Link>
       </div>
@@ -522,19 +522,19 @@ const List = () => {
           <CardBody>
             <div className="panel panel-warning">
               <div className="list-group">
-                <Link to="#" className="list-group-item">
+                <Link href="#" className="list-group-item">
                   Cras justo odio
                 </Link>
-                <Link to="#" className="list-group-item active">
+                <Link href="#" className="list-group-item active">
                   Dapibus ac facilisis in
                 </Link>
-                <Link to="#" className="list-group-item">
+                <Link href="#" className="list-group-item">
                   Morbi leo risus
                 </Link>
-                <Link to="#" className="list-group-item">
+                <Link href="#" className="list-group-item">
                   Porta ac consectetur ac
                 </Link>
-                <Link to="#" className="list-group-item">
+                <Link href="#" className="list-group-item">
                   Vestibulum at eros
                 </Link>
               </div>
@@ -559,19 +559,19 @@ const List = () => {
               <code className="language-markup mb-0">{`
     <div className="panel panel-warning">
       <div className="list-group">
-        <Link to="#" className="list-group-item">
+        <Link href="#" className="list-group-item">
           Cras justo odio
         </Link>
-        <Link to="#" className="list-group-item active">
+        <Link href="#" className="list-group-item active">
           Dapibus ac facilisis in
         </Link>
-        <Link to="#" className="list-group-item">
+        <Link href="#" className="list-group-item">
           Morbi leo risus
         </Link>
-        <Link to="#" className="list-group-item">
+        <Link href="#" className="list-group-item">
           Porta ac consectetur ac
         </Link>
-        <Link to="#" className="list-group-item">
+        <Link href="#" className="list-group-item">
           Vestibulum at eros
         </Link>
       </div>
@@ -607,19 +607,19 @@ const List = () => {
           <CardBody>
             <div className="panel panel-danger">
               <div className="list-group">
-                <Link to="#" className="list-group-item">
+                <Link href="#" className="list-group-item">
                   Cras justo odio
                 </Link>
-                <Link to="#" className="list-group-item active">
+                <Link href="#" className="list-group-item active">
                   Dapibus ac facilisis in
                 </Link>
-                <Link to="#" className="list-group-item">
+                <Link href="#" className="list-group-item">
                   Morbi leo risus
                 </Link>
-                <Link to="#" className="list-group-item">
+                <Link href="#" className="list-group-item">
                   Porta ac consectetur ac
                 </Link>
-                <Link to="#" className="list-group-item">
+                <Link href="#" className="list-group-item">
                   Vestibulum at eros
                 </Link>
               </div>
@@ -644,19 +644,19 @@ const List = () => {
               <code className="language-markup mb-0">{`
     <div className="panel panel-danger">
       <div className="list-group">
-        <Link to="#" className="list-group-item">
+        <Link href="#" className="list-group-item">
           Cras justo odio
         </Link>
-        <Link to="#" className="list-group-item active">
+        <Link href="#" className="list-group-item active">
           Dapibus ac facilisis in
         </Link>
-        <Link to="#" className="list-group-item">
+        <Link href="#" className="list-group-item">
           Morbi leo risus
         </Link>
-        <Link to="#" className="list-group-item">
+        <Link href="#" className="list-group-item">
           Porta ac consectetur ac
         </Link>
-        <Link to="#" className="list-group-item">
+        <Link href="#" className="list-group-item">
           Vestibulum at eros
         </Link>
       </div>

@@ -5,11 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7462ee7c-73e7-4276-a53f-57f448b938da" name="変更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/sell/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shared/Prism/Prism.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/ComingSoon/ComingSoon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/ComingSoon/ComingSoon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/ForgetPassword/ForgetPassword01/ForgetPassword01.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/ForgetPassword/ForgetPassword01/ForgetPassword01.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/ForgetPassword/ForgetPassword02/ForgetPassword02.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/ForgetPassword/ForgetPassword02/ForgetPassword02.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/ForgetPassword/ForgetPassword03/ForgetPassword03.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/ForgetPassword/ForgetPassword03/ForgetPassword03.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/LockScreen/LockScreen01/LockScreen01.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/LockScreen/LockScreen01/LockScreen01.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/LockScreen/LockScreen02/LockScreen02.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/LockScreen/LockScreen02/LockScreen02.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/LockScreen/LockScreen03/LockScreen03.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/LockScreen/LockScreen03/LockScreen03.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/Login/Login01/Login01.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/Login/Login01/Login01.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/Login/Login02/Login02.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/Login/Login02/Login02.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/Login/Login03/Login03.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/Login/Login03/Login03.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/Register/Register01/Register01.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/Register/Register01/Register01.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/Register/Register02/Register02.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/Register/Register02/Register02.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/Register/Register03/Register03.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/Register/Register03/Register03.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/UnderConstruction/UnderConstruction.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/UnderConstruction/UnderConstruction.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Auth/Login/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auth/Login/Login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Auth/Signup/Signup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auth/Signup/Signup.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/Alerts/Alerts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/Alerts/Alerts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/CardImages/CardImages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/CardImages/CardImages.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/CardImages/data.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/CardImages/data.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/Cards/Cards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/Cards/Cards.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/Footers/Footers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/Footers/Footers.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/List/List.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/List/List.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/Pagination/Pagination.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/Pagination/Pagination.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/Tags/Tags.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/Tags/Tags.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileManager/FileAttachments/FileAttachments.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileManager/FileAttachments/FileAttachments.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileManager/FileDetails/FileDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileManager/FileDetails/FileDetails.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileManager/FileManager/FileManager.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileManager/FileManager/FileManager.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileManager/FileManager02/FileManager02.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileManager/FileManager02/FileManager02.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Forms/FormElements/FormElements.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/FormElements/FormElements.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Icons/TypiconsIcons/TypiconsIcons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Icons/TypiconsIcons/TypiconsIcons.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Icons/WeatherIcons/WeatherIcons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Icons/WeatherIcons/WeatherIcons.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/Footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Header/Header2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/Header/Header2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shared/Components/Sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/Sidebar/Sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shared/Components/TabToTap/TabToTap.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Components/TabToTap/TabToTap.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +79,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Shared/Prism" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="アプリケーションレベル" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="デフォルトタスク">
@@ -58,6 +99,7 @@
       <workItem from="1683346753423" duration="3883000" />
       <workItem from="1683351598437" duration="578000" />
       <workItem from="1683352189178" duration="142000" />
+      <workItem from="1683352367640" duration="1082000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Card, CardBody, CardText, Form, Input, Label, CardFooter, CardHeader, CardLink, CardTitle, Col, Row, Button, ListGroup, ListGroupItem, Nav, NavItem, NavLink, Modal, ModalHeader, ModalBody, Collapse } from 'reactstrap';
+import { Card, CardBody, CardText, Form, Input, Label, CardFooter, CardHeader, CardLink, CardTitle, Col, Row, Button, ListGroup, ListGroupItem, Nav, NavItem, NavLink, Modal, ModalHeader, ModalBody } from 'reactstrap';
 import photo10 from "../../../assets/images/photos/10.jpg";
 import { PageHeaders } from '../../../Shared/Prism/Prism';
 import { Link } from 'react-router-dom';
@@ -578,8 +578,8 @@ const Cards = () => {
                             <CardHeader>
                                 <CardTitle>Initial collapsed card</CardTitle>
                                 <div className="card-options">
-                                    <Link to='#' className="card-options-collapse me-5" onClick={() => { initialClose(); }}><i className='fe fe-chevron-down'></i></Link>
-                                    <Link to='#' onClick={() => setInitialshow(false)} aria-label="close"><i className="fe fe-x"></i></Link>
+                                    <Link href='#' className="card-options-collapse me-5" onClick={() => { initialClose(); }}><i className='fe fe-chevron-down'></i></Link>
+                                    <Link href='#' onClick={() => setInitialshow(false)} aria-label="close"><i className="fe fe-x"></i></Link>
                                 </div>
                             </CardHeader>
                             {isinitialCollapse ? (
